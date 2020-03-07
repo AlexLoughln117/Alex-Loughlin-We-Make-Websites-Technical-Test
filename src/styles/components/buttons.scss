@@ -1,0 +1,52 @@
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  border: 0;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+  user-select: none;
+  appearance: none;
+  min-height: 55px;
+  min-width: 175px;
+  background-color: #003366;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.4375rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: fit-content;
+  margin: 0 auto;
+   transition: color .15s ease-in-out,background-color .15s ease-in-out;
+
+  &:hover{
+  	background-color: #BBBBBB;
+  }
+
+   @media screen and ( max-width: 580px ){
+   	  font-size: 0.875rem;
+	  font-weight: bold;
+	  line-height: 1.0625rem;
+	  min-height: 42px;
+      min-width: 125px;
+   }
+}
+
+.btn-secondary{
+        max-width: 270px;
+		height: 47px;
+		background-color: #fff;
+		color: #003366;
+		transition: color .15s ease-in-out,background-color .15s ease-in-out;
+
+		&:hover{
+		  	background-color: #003366;
+		  	color: #fff;
+		  }
+}
+
+
