@@ -1,6 +1,0 @@
-default:
-  password: d4136567d4f31e1984b3371ce71e0085
-  theme_id: "78934114393"
-  store: wmw-technical-test.myshopify.com
-  ignore_files:
-  - /config/settings_data.json
